@@ -1,3 +1,4 @@
+
 export const personal = {
   name: 'Kishor Kumar',
   role: 'Frontend Engineer',
@@ -13,8 +14,8 @@ export const personal = {
   linkedin: 'https://www.linkedin.com/in/kishor-kumar-479272427/',
   github: 'https://github.com/Kishor6203',
 
-  profileImage: '/images/kishor-profile.jpeg',
-  resume: '/resume/Kishor_Kumar_2026.pdf',
+  profileImage: `${import.meta.env.BASE_URL}images/kishor-profile.jpeg`,
+  resume: `${import.meta.env.BASE_URL}resume/Kishor_Kumar_2026.pdf`,
 } as const;
 
 export const navItems = [
