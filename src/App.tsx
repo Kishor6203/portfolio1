@@ -21,7 +21,7 @@ import './index.css';
 export default function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio1">
         <Helmet>
           <title>
             {personal.name} — {personal.role}
