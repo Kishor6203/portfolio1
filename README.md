@@ -18,8 +18,8 @@ npm run preview
 
 ## Personalize before publishing
 
-1. **Profile photo:** place your real portrait at `public/images/kishor-profile.png`. The hero reads this single path from `src/data/personal.ts` (`profileImage`). No generated or stock face is included; until you add your photograph, the hero shows a KK monogram placeholder.
-2. **Resume:** replace `public/resume/Kishor-Kumar-Resume.pdf` with your latest approved PDF. A starter resume PDF is included and contains only the facts supplied in the brief; update it with any additional verified details before sharing publicly.
+1. **Profile photo:** place your real portrait at `public/images.png`. The hero reads this single path from `src/data/personal.ts` (`profileImage`). No generated or stock face is included; until you add your photograph, the hero shows a KK monogram placeholder.
+2. **Resume:** replace `public/resume/Resume.pdf` with your latest approved PDF. A starter resume PDF is included and contains only the facts supplied in the brief; update it with any additional verified details before sharing publicly.
 3. **Social profiles:** set the exact public LinkedIn and GitHub URLs in `src/data/personal.ts`. They are intentionally generic profile roots until you provide your actual URLs.
 4. **Project links:** add verified `liveUrl` and `githubUrl` values to the matching entries in `src/data/projects.ts`. Until then the cards correctly show “Project overview” rather than fabricated destinations.
 5. **Contact form (optional):** copy `.env.example` to `.env` and set `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAILJS_PUBLIC_KEY`. Configure your EmailJS template with `from_name`, `reply_to`, `subject`, and `message`. Without these values, submission opens the visitor's email client with the message prefilled.
